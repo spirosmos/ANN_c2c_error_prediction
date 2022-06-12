@@ -4,7 +4,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense,Dropout
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import joblib
 
 
