@@ -111,9 +111,9 @@ def IGL_statistics(v, f):
 
 def createDatalist(v, gaussC, meanC, inAng, normAng, bbd, verticesIDs, fileObj):
 	row = []
-	#for i in verticesIDs:
 	name = 'data_' + fileObj.replace('.obj','') + '.csv'
 	append_list_as_row(name, ['x','y','z','gaussC','meanC','inAngleAVG','inAngleMin','inAngleMax','normalAnlgeOnZ','box_dist'])
+	#for i in verticesIDs:
 	for i in range(0,len(v)):
 		row.append(v[i][0])
 		row.append(v[i][1])
