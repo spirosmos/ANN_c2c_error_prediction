@@ -133,8 +133,8 @@ def createDatalist(v, gaussC, meanC, inAng, normAng, bbd, verticesIDs, fileObj):
 
 
 def main():
-	namesObj = np.array(["Woman_of_Pindos.obj"])
-
+	#namesObj = np.array(["Woman_of_Pindos.obj"])
+	namesObj = sys.argv[1:]
 
 
 	for n in range (0,len(namesObj)):
