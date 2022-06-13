@@ -20,7 +20,7 @@ For export_CSV_from_OBJ.py
 
 ## Reference
 
-ArcivX link
+ArxivX link
 
 ## extract_CSV_from_OBJ.py
 
