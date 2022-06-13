@@ -24,7 +24,7 @@ ArcivX link
 
 ## extract_CSV_from_OBJ.py
 
-Give as input a path of any .obj model, run the script and export the features in .csv.
+Take as input a path of any .obj model, run the script and export the features in .csv.
 
 ```sh
 python export_CSV_from_OBJ.py yourModel.obj
@@ -38,7 +38,7 @@ Example of features
 
 ## ann_predictor.py
 
-Give as input the .csv file. The predictor gives as output a .ply file contains the vertices and the per vertex dimensional error (in milimeters). 
+Take as input the .csv file. The predictor gives as output a .ply file contains the vertices and the per vertex dimensional error (in milimeters). 
 
 ```sh
 python ann_predictor.py yourData.csv
