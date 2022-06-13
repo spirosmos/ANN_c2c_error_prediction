@@ -43,3 +43,5 @@ Produces a .ply file of the vertices and the predicted per vertex dimensional er
 ```sh
 python ann_predictor.py yourData.csv
 ```
+
+<img src="pretrained_ANN/images/dataFlow.png" width=50%>
