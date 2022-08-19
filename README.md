@@ -29,12 +29,6 @@ Exports the features in a .csv file, given any .obj model as input.
 ```sh
 python export_CSV_from_OBJ.py yourModel.obj
 ```
-Example of features
-| x | y | z | Gauss Curvature | Mean Curvature | Internal Angle-AVG | Internal Angle-Min | Internal Angle-Max | Normal's Anlge On Z-axis |  Distance from bounding box |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| 118.462959 | 55.829819 | 5.898669 | -0.088429 | 1.115727 | 45.041894 | 21.655226 | 66.665803 | 86.064389 | 5.741143 |
-| 112.507225 | 47.683815 | 18.451500 | 0.420510 | 0.859329 | 59.604654 | 29.939070 | 96.713844 | 103.230509 | 15.915016 |
-| 100.989685 | 31.305315 | 59.740143 | -0.497328 | 0.023250 | 51.684147 | 33.436291 | 65.549049 | 78.435304 | 5.703400 |
 
 ## ann_predictor.py
 
