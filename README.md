@@ -20,7 +20,7 @@ For export_CSV_from_OBJ.py
 
 ## Reference
 
-ArxivX link
+https://doi.org/10.1108/RPJ-11-2022-0402
 
 ## extract_CSV_from_OBJ.py
 
